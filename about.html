@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Miles Alexander Peña</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .hero {
+      background: url('https://i.imgur.com/qS97sPv.jpeg') no-repeat center center/cover;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      max-width: 90%;
+      margin: auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: #ffffff;
+      margin-bottom: 2rem;
+    }
+
+    .hero-nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .hero-nav a {
+      color: white;
+      text-decoration: none;
+      border: 2px solid #fff;
+      padding: 0.5rem 1rem;
+      margin: 0 0.5rem;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .hero-nav a:hover {
+      background-color: #144259;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+    }
+
+    .photo {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .photo img {
+      width: 250px;
+      border-radius: 10px;
+      border: 3px solid #00aaff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: #ffffff;
+      margin-top: auto;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .hero-nav a {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+      }
+
+      .overlay {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Miles Alexander Peña</h1>
+      <p>Data Scientist | AI & Machine Learning Enthusiast | Visualization Specialist</p>
+      <nav class="hero-nav">
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <p>Hello! I'm <strong>Miles Alexander Peña</strong>, a data professional passionate about solving real-world problems through data-driven decision making. I recently completed my Master's in Data Science where I specialized in data analysis, machine learning, and effective data storytelling.</p>
+
+    <p>Throughout my journey, I've built and contributed to projects across industries including education, finance, and technology. I value curiosity, communication, and creating solutions that actually help people. I also enjoy translating technical models and analyses into meaningful business insights.</p>
+
+    <p>When I'm not coding, you can find me reading, exploring new places, or helping others grow through mentoring. This portfolio is a snapshot of the work I’m proud of—thank you for taking the time to explore it.</p>
+
+    <div class="photo">
+      <img src="your-photo.jpg" alt="Miles Alexander Peña">
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025</p>
+  </footer>
+</body>
+</html>
