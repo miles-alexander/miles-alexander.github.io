@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Miles Alexander Peña</title>
+  <title>Contact | Miles Alexander Peña</title>
   <style>
     body {
       margin: 0;
@@ -29,14 +29,14 @@
       padding: 2rem;
       border-radius: 12px;
       text-align: center;
-      max-width: 90%;
+      max-width: 900px;
       margin: auto;
     }
 
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 0.5rem;
       color: #ffffff;
+      margin-bottom: 2rem;
     }
 
     p {
@@ -49,6 +49,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      gap: 1rem;
     }
 
     .hero-nav a {
@@ -56,7 +57,6 @@
       text-decoration: none;
       border: 2px solid #fff;
       padding: 0.5rem 1rem;
-      margin: 0 0.5rem;
       border-radius: 5px;
       transition: 0.3s;
     }
@@ -67,22 +67,21 @@
     }
 
     .container {
-      max-width: 900px;
+      max-width: 600px;
       margin: 2rem auto;
       padding: 2rem;
       background-color: rgba(255, 255, 255, 0.05);
       border-radius: 10px;
-    }
-
-    .photo {
       text-align: center;
-      margin-top: 2rem;
     }
 
-    .photo img {
-      width: 250px;
-      border-radius: 10px;
-      border: 3px solid #00aaff;
+    .contact-info {
+      font-size: 1.1rem;
+    }
+
+    .contact-info a {
+      color: #ffa500;
+      text-decoration: none;
     }
 
     footer {
@@ -96,10 +95,6 @@
     @media (max-width: 600px) {
       h1 {
         font-size: 2rem;
-      }
-
-      p {
-        font-size: 1rem;
       }
 
       .hero-nav a {
@@ -116,29 +111,23 @@
 <body>
   <header class="hero">
     <div class="overlay">
-      <h1>ABOUT</h1>
-      <p></p>
+      <h1>CONTACT</h1>
       <nav class="hero-nav">
         <a href="index.html">Home</a>
+        <a href="about.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="experience.html">Experience</a>
-        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <div class="container">
-   <p>Hi, I'm <strong>Miles Alexander Peña</strong> — a passionate and curious data science graduate student at Bellevue University, on track to finish my Master of Science in Spring 2025. I believe in the power of data to tell meaningful stories, solve real-world problems, and create smarter, more human-centered solutions.</p>
+    <p>If you're interested in working together, have a question, or just want to connect — I'd love to hear from you!</p>
 
-    <p>Over the last few years, I’ve had the opportunity to explore projects that span machine learning, data visualization, predictive modeling, and generative AI. Whether I’m building tools that support employees and the operation or experimenting with LLMs, my goal is always to make information accessible and impactful.</p>
-
-    <p>Through my studies, I’ve developed a strong appreciation for clean data, clear insights, and thoughtful collaboration. I enjoy blending technical skill with creativity — building solutions that work and also resonate with the people who use them.</p>
-
-    <p>Outside of data, I’m a lifelong learner who loves cruising, traveling, reading, and playing soccer. I also believe that growth happens through community, and I’m always open to connecting with people who are just as excited about data, innovation, and storytelling as I am.</p>
-
-    <p>If you're interested in collaborating, sharing ideas, or just want to talk data, feel free to reach out. I’d love to hear from you.</p>
-    <div class="photo">
-      <img src="your-photo.jpg" alt="Miles Alexander Peña">
+    <div class="contact-info">
+      <p><strong>Email:</strong> <a href="mailto:miles.a.pena@gmail.com">miles.a.pena@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/miles-alexander-peña" target="_blank">linkedin.com/in/miles-alexander-peña</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/miles-alexander" target="_blank">github.com/miles-alexander</a></p>
     </div>
   </div>
 
