@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Experience | Miles Alexander Peña</title>
+  <title>Portfolio | Miles Alexander Peña</title>
   <style>
     body {
       margin: 0;
@@ -65,23 +65,32 @@
       padding: 2rem;
     }
 
-    .experience-block {
+    .project-card {
+      display: block;
       background-color: rgba(255, 255, 255, 0.05);
       padding: 1.5rem;
       border-radius: 10px;
       margin-bottom: 2rem;
-      border-left: 4px solid #ffa500;
+      border-left: 4px solid #00aaff;
+      text-decoration: none;
+      color: inherit;
+      transition: background-color 0.3s;
     }
 
-    .experience-block h2 {
-  color: #ffa500;
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-}
+    .project-card:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
 
-    .experience-block h3 {
-      margin: 0.5rem 0 1rem 0;
-      color: #00aaff;
+    .project-card h2 {
+      color: #ffa500;
+      margin-bottom: 0.5rem;
+      text-decoration: none;
+    }
+
+    .project-description {
+      color: #dddddd;
+      font-size: 1rem;
+      margin-top: 0.5rem;
     }
 
     footer {
@@ -91,22 +100,16 @@
       color: #ffffff;
       margin-top: auto;
     }
-  .project-description {
-  color: #dddddd;
-  font-size: 1rem;
-  margin-top: 0.5rem;
-}
-
-</style>
+  </style>
 </head>
 <body>
   <header class="hero">
     <div class="overlay">
-      <h1>EXPERIENCE</h1>
+      <h1>PORTFOLIO</h1>
       <nav class="hero-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
+        <a href="experience.html">Experience</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
