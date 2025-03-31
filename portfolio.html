@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Miles Alexander Peña</title>
+  <title>Experience | Miles Alexander Peña</title>
   <style>
     body {
       margin: 0;
@@ -48,7 +48,6 @@
     .hero-nav a {
       color: white;
       text-decoration: none;
-  color: inherit;
       border: 2px solid #fff;
       padding: 0.5rem 1rem;
       border-radius: 5px;
@@ -66,28 +65,23 @@
       padding: 2rem;
     }
 
-    .project-card {
-  display: block;
+    .experience-block {
       background-color: rgba(255, 255, 255, 0.05);
       padding: 1.5rem;
       border-radius: 10px;
       margin-bottom: 2rem;
-      border-left: 4px solid #00aaff;
+      border-left: 4px solid #ffa500;
     }
 
-    .project-card h2 {
-      color: #ffa500;
-      margin-bottom: 0.5rem;
-    }
+    .experience-block h2 {
+  color: #ffa500;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
 
-    .project-card a {
+    .experience-block h3 {
+      margin: 0.5rem 0 1rem 0;
       color: #00aaff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .project-card a:hover {
-      text-decoration: underline;
     }
 
     footer {
@@ -97,16 +91,22 @@
       color: #ffffff;
       margin-top: auto;
     }
-  </style>
+  .project-description {
+  color: #dddddd;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+</style>
 </head>
 <body>
   <header class="hero">
     <div class="overlay">
-      <h1>Portfolio</h1>
+      <h1>Experience</h1>
       <nav class="hero-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="experience.html">Experience</a>
+        <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
@@ -114,49 +114,19 @@
 
   <div class="container">
     <a href="https://github.com/miles-alexander/weather-app" target="_blank" class="project-card">
-  <h2>Weather App (Python)</h2>
-  <p>A command-line Python app that fetches real-time weather data using the OpenWeather API based on user input. Focused on API integration, error handling, and user-friendly design.</p>
-</a>
+      <h2>Weather App (Python)</h2>
+      <p class="project-description">A command-line Python app that fetches real-time weather data using the OpenWeather API based on user input. Focused on API integration, error handling, and user-friendly design.</p>
+    </a>
 
-<a href="https://github.com/miles-alexander/rafiki" target="_blank" class="project-card">
-  <h2>RAFIKI: Cast Feedback Platform</h2>
-  <p>Designed a tool used within Magic Kingdom to capture and categorize operational feedback from cast members. Built to support leadership with fast, actionable insights.</p>
-</a>
+    <a href="https://github.com/miles-alexander/rafiki" target="_blank" class="project-card">
+      <h2>RAFIKI: Cast Feedback Platform</h2>
+      <p class="project-description">Designed a tool used within Magic Kingdom to capture and categorize operational feedback from cast members. Built to support leadership with fast, actionable insights.</p>
+    </a>
 
-<a href="https://github.com/miles-alexander/lottery-visualization" target="_blank" class="project-card">
-  <h2>Lottery Number Analysis (Tableau)</h2>
-  <p>Used Tableau to visualize trends across Powerball and Mega Millions draws, highlighting frequency patterns, decade analysis, and testing randomness assumptions.</p>
-</a>
-
-    <a href="https://github.com/miles-alexander/weather-app" target="_blank" class="project-card">
-  <h2>Weather App (Python)</h2>
-  <p>A command-line Python app that fetches real-time weather data using the OpenWeather API based on user input. Focused on API integration, error handling, and user-friendly design.</p>
-</a>
-
-<a href="https://github.com/miles-alexander/rafiki" target="_blank" class="project-card">
-  <h2>RAFIKI: Cast Feedback Platform</h2>
-  <p>Designed a tool used within Magic Kingdom to capture and categorize operational feedback from cast members. Built to support leadership with fast, actionable insights.</p>
-</a>
-
-<a href="https://github.com/miles-alexander/lottery-visualization" target="_blank" class="project-card">
-  <h2>Lottery Number Analysis (Tableau)</h2>
-  <p>Used Tableau to visualize trends across Powerball and Mega Millions draws, highlighting frequency patterns, decade analysis, and testing randomness assumptions.</p>
-</a>
-
-    <a href="https://github.com/miles-alexander/weather-app" target="_blank" class="project-card">
-  <h2>Weather App (Python)</h2>
-  <p>A command-line Python app that fetches real-time weather data using the OpenWeather API based on user input. Focused on API integration, error handling, and user-friendly design.</p>
-</a>
-
-<a href="https://github.com/miles-alexander/rafiki" target="_blank" class="project-card">
-  <h2>RAFIKI: Cast Feedback Platform</h2>
-  <p>Designed a tool used within Magic Kingdom to capture and categorize operational feedback from cast members. Built to support leadership with fast, actionable insights.</p>
-</a>
-
-<a href="https://github.com/miles-alexander/lottery-visualization" target="_blank" class="project-card">
-  <h2>Lottery Number Analysis (Tableau)</h2>
-  <p>Used Tableau to visualize trends across Powerball and Mega Millions draws, highlighting frequency patterns, decade analysis, and testing randomness assumptions.</p>
-</a>
+    <a href="https://github.com/miles-alexander/lottery-visualization" target="_blank" class="project-card">
+      <h2>Lottery Number Analysis (Tableau)</h2>
+      <p class="project-description">Used Tableau to visualize trends across Powerball and Mega Millions draws, highlighting frequency patterns, decade analysis, and testing randomness assumptions.</p>
+    </a>
   </div>
 
   <footer>
