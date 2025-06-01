@@ -73,9 +73,10 @@
       border-radius: 10px;
     }
 
-    .photo {
-      text-align: center;
-      margin-top: 2rem;
+    .container::after {
+      content: "";
+      display: table;
+      clear: both;
     }
 
     .photo img {
@@ -85,7 +86,6 @@
       float: left;
       margin: 0 1.5rem 1rem 0;
     }
-
 
     footer {
       text-align: center;
@@ -112,6 +112,12 @@
       .overlay {
         padding: 2rem 1rem;
       }
+
+      .photo img {
+        float: none;
+        display: block;
+        margin: 0 auto 1.5rem auto;
+      }
     }
   </style>
 </head>
@@ -127,19 +133,20 @@
       </nav>
     </div>
   </header>
-  
-  <div class="photo">
-      <img src="https://i.imgur.com/mOUlsR9.jpeg" alt="Miles Alexander Peña"> 
-    </div>
-  
+
   <div class="container">
-    <p>Hi, I'm <strong>Miles Alexander Peña</strong> — a passionate and curious data scientist. I believe in the power of data to tell meaningful stories, solve real-world problems, and create smarter, more human-centered solutions.</p>
+    <div class="photo">
+      <img src="https://i.imgur.com/mOUlsR9.jpeg" alt="Miles Alexander Peña">
+    </div>
+
+    <p>Hi, I'm <strong>Miles Alexander Peña</strong> — a passionate and curious data science graduate student at Bellevue University, on track to finish my Master of Science in Spring 2025. I believe in the power of data to tell meaningful stories, solve real-world problems, and create smarter, more human-centered solutions.</p>
 
     <p>Over the last few years, I’ve had the opportunity to explore projects that span machine learning, data visualization, predictive modeling, and generative AI. Whether I’m building tools that support employees and the operation or experimenting with LLMs, my goal is always to make information accessible and impactful.</p>
 
     <p>I’ve developed a strong appreciation for clean data, clear insights, and thoughtful collaboration. I enjoy blending technical skill with creativity — building solutions that work and also resonate with the people who use them.</p>
 
     <p>Outside of data, I’m a lifelong learner who loves cruising, traveling, reading, and playing soccer. I also believe that growth happens through community, and I’m always open to connecting with people who are just as excited about data, innovation, and storytelling as I am.</p>
+  </div>
 
   <footer>
     <p>&copy; 2025</p>
